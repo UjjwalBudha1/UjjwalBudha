@@ -68,24 +68,24 @@ nav ul li a:hover{
 
 .Text-icon{
     flex: 1;
-    letter-spacing: 2px;
-    margin-top: 64px;
+    letter-spacing: 4px;
+    margin-top: 80px;
     padding-left: 40px;
-    line-height: 84px;
+    line-height: 60px;
 
 }
 
   .Text-icon h1{
     color: white;
-    font-family: poppins;
-    font-size: 42px;
+    font-family: cursive;
+    font-size: 38px;
     padding-left: 32px;
 
   }
   .Text-icon i{
     color: white;
-    font-size: 42px;
-    padding-top: 62px;
+    font-size: 38px;
+    padding-top: 42px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -133,13 +133,26 @@ nav ul li a:hover{
     height: 150px;
   }
   
-  .button{
-    margin-top: 24px;
-    width: 100px;
-    font-size: 16px;
-    color: #0D1A1D;
-    border-color: #00E0FF;
-    background-color: #00E0FF;
-    padding: 8px;
-    border-radius: 8px;
+
+  #name, #email, #message{
+    color: white;
   }
+  input[type="submit"] {
+    background-color: #00E0FF;
+    font-size: 16px;
+    width: 100px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+    margin-top: 24px;
+    padding: 6px 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
